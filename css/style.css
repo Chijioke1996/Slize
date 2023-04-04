@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    height: 100Vh;
+    width: 100vw;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    /* background: rgba(255, 255, 255, 0.938); */
+    background: white;
+    padding: 1rem;
+    z-index: 1;
+    width: 100%;
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    height: 75px;
+    overflow-y: hidden;
+    padding-top: 25px;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    /* color: #2f3338; */
+    color: black;
+}
+
+#navbar a h1 {
+    margin: 5px;
+    position: absolute;
+
+}
+
+#navbar .hamburger .menu {
+    width: 35px;
+    height: 35px;
+    margin: 0px 80px;
+    position: relative;
+
+
+}
+#navbar .hamburger .menu {
+    width: 35px;
+    height: 35px;
+    margin: 0px 80px;
+    position: relative;
+
+
+}
+
+#navbar .search-box {
+
+    display: inline-block;
+    position: relative;
+    margin-left: 80vw;
+    margin-top: -70px;
+
+
+}
+
+#navbar .search-box .len {
+    width: 35px;
+    height: 35px;
+    margin-top: -50px;
+    position: absolute;
+    color: black;
+
+}
+
+
+#navbar .client-btn {
+    margin-left: 85vw;
+    margin-top: -50px;
+    display: inline-block;
+    position: relative;
+}
+
+#navbar .client-btn .btn {
+    margin-top: -68px;
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+
+    
+
+
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+}
+
+.wrapper {
+    background: white;
+    height: 600px;
+    position: relative;
+    z-index: auto;
+  
+}
+
+/* .boxy {
+    display: none;
+    margin-top: -50%;
+}
+
+.boxy.active {
+    display: block;
+    margin-top: 0px;
+    transition: 1ms;
+} */
+
+/* .wrapper.active {
+    display: block;
+    margin-top: 0px;
+    transition: 1ms;
+
+} */
+
+.wrapper .side-list {
+    background: white;
+    height: 600px;
+    width: 30vw;
+    position: relative;
+}
+
+.wrapper .side-list ul {
+   padding-top: 100px;
+}
+
+.wrapper .side-list ul li{
+    list-style: none;
+    color: black;
+    margin: 30px 100px;
+    
+}
+
+.wrapper .side-list ul li a{
+    
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+    
+}
+
+.wrapper .side-list ul li .line{
+    
+    background: rgb(76, 75, 75);
+    text-decoration: none;
+    width: 260px;
+    height: 0.004rem;
+    margin-top: 20px;
+    
+}
+
+
+
+.wrapper .wide-list {
+    background: #f4f4f4;
+    height: 600px;
+    width: 70vw;
+    margin-left: 30vw;
+    margin-top: -600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .wide-list .box-1 {
+    background: url(/img/forex.avif); 
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    width: 292px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.wrapper .wide-list .box-1 .text1 {
+    color: white;  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -130px;
+    font-weight: 700;
+    
+}
+
+.wrapper .wide-list .box-2 .text2 {
+    color: white;  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -150px;
+    margin-top: 78px;
+    font-weight: 700;
+    
+}
+
+.wrapper .wide-list .box-2 {
+    background: url(/img/forex2.avif); 
+    background-position: center; 
+    background-size: cover; 
+    position: relative;
+    width: 292px;
+    height: 165px;
+    margin-left: 60px;
+}
+
+
+
+/* RESPONSIVE CODEBASE */
+
+@media screen and (max-width: 900px) {
+    #navbar .hamburger .menu {
+        margin: 0px 70px;
+        position: relative;
+
+    }
+
+    #navbar .search-box {
+        margin-left: 65vw;
+        margin-top: -70px;
+    
+    }
+
+    #navbar .client-btn {
+        margin-left: 75vw;
+        margin-top: -50px;
+       
+    }
+
+
+
+
+}
+
+
+@media screen and (width <= 460px) {
+    #navbar .hamburger .menu {
+        margin: 0px 70px;
+        position: relative;
+
+    }
+
+    #navbar .search-box {
+        margin-left: 50vw;
+        margin-top: -70px;
+    
+    }
+
+    #navbar .client-btn {
+        margin-left: 62vw;
+        margin-top: -50px;
+       
+    }
+
+
+
+
+}
