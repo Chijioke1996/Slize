@@ -14,17 +14,21 @@ menu.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
     wrapper.classList.remove("active")
+    menuControl.classList.remove("active")
    
 })
 
 listItems.forEach(item => {
     item.addEventListener("click", () => {
         wrapper.classList.remove("active")
+        menuControl.classList.remove("active")
     })
 })
 
 closeBtn2.addEventListener("click", () => {
     wrapper.classList.remove("active")
+    menuControl.classList.remove("active")
+
    
 })
 
