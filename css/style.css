@@ -51,6 +51,11 @@ body {
 
 }
 
+.menu.active {
+    display: none;
+ 
+ }
+
 
 #navbar .search-box {
 
@@ -87,10 +92,10 @@ body {
     height: 30px;
     border-radius: 7px;
     cursor: pointer;
-    
+
 }
 
-.btn:hover{
+.btn:hover {
     background: black;
     color: white;
 }
@@ -101,7 +106,7 @@ body {
     position: relative;
     /* z-index: auto; */
     display: none;
-  
+
 }
 
 /* .boxy {
@@ -117,7 +122,7 @@ body {
 
 .wrapper.active {
     display: block;
-    
+
 }
 
 .wrapper .side-list {
@@ -128,33 +133,33 @@ body {
 }
 
 .wrapper .side-list ul {
-   padding-top: 100px;
+    padding-top: 100px;
 }
 
-.wrapper .side-list ul li{
+.wrapper .side-list ul li {
     list-style: none;
     color: black;
     margin: 30px 100px;
-    
+
 }
 
-.wrapper .side-list ul li a{
-    
+.wrapper .side-list ul li a {
+
     color: black;
     text-decoration: none;
     font-size: 1.2rem;
-    
-    
+
+
 }
 
-.wrapper .side-list ul li .line{
-    
+.wrapper .side-list ul li .line {
+
     background: rgb(76, 75, 75);
     text-decoration: none;
     width: 260px;
     height: 0.004rem;
     margin-top: 20px;
-    
+
 }
 
 
@@ -172,8 +177,8 @@ body {
 }
 
 .wrapper .wide-list .box-1 {
-    background: url(/img/forex.avif); 
-    background-position: center; 
+    background: url(/img/forex.avif);
+    background-position: center;
     background-size: cover;
     position: relative;
     width: 292px;
@@ -181,23 +186,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
 .wrapper .wide-list .box-1 .text1 {
-    color: white;  
+    color: white;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -130px;
     font-weight: 700;
-    
+
 }
 
 .wrapper .wide-list .box-2 .text2 {
-    color: white;  
+    color: white;
     position: relative;
     display: flex;
     justify-content: center;
@@ -205,13 +210,13 @@ body {
     margin-left: -150px;
     margin-top: 78px;
     font-weight: 700;
-    
+
 }
 
 .wrapper .wide-list .box-2 {
-    background: url(/img/forex2.avif); 
-    background-position: center; 
-    background-size: cover; 
+    background: url(/img/forex2.avif);
+    background-position: center;
+    background-size: cover;
     position: relative;
     width: 292px;
     height: 165px;
@@ -225,6 +230,10 @@ body {
     margin-left: 50vw;
     margin-top: -200px;
     cursor: pointer;
+}
+
+.close-btn2 {
+    display: none;
 }
 
 
@@ -242,23 +251,70 @@ body {
         margin-left: 64vw;
         margin-top: 48px;
         position: absolute;
-    
+
     }
 
     #navbar .client-btn {
         margin-left: 75vw;
         margin-top: 24px;
         position: absolute;
-       
+
+    }
+
+    .wrapper .side-list {
+        background: #f4f4f4;
+        height: 450px;
+        width: 100vw;
+
+
+    }
+
+    .wrapper .wide-list {
+        display: none;
+
+
+    }
+
+    .wrapper .side-list ul li {
+        margin: 40px 100px;
+    
+    }
+
+    .wrapper .side-list ul li a {
+        font-size: 1.0rem;
+    }
+
+    .wrapper .side-list ul li .line {
+
+        height: 0.0rem;
+
     }
 
 
+    .close-btn2 {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        margin-left: 87vw;
+        margin-top: 100px;
+        cursor: pointer;
+        display: block;
+        color: black;
+    }
+    
 
 
 }
 
 
-@media screen and (width <= 460px) {
+
+
+
+
+
+
+
+@media screen and (width <=460px) {
     #navbar .hamburger .menu {
         margin: 0px 70px;
         position: relative;
@@ -269,14 +325,55 @@ body {
         margin-left: 54vw;
         margin-top: 53px;
         position: absolute;
-    
+
     }
 
     #navbar .client-btn {
         margin-left: 65vw;
         margin-top: 28px;
-       
+
     }
+
+    .wrapper .side-list {
+        background: #f4f4f4;
+        height: 450px;
+        width: 100vw;
+
+
+    }
+
+    .wrapper .wide-list {
+        display: none;
+
+
+    }
+
+    .wrapper .side-list ul li a {
+        font-size: 1.0rem;
+    }
+
+    .wrapper .side-list ul li .line {
+        height: 0.0rem;
+
+    }
+
+    .wrapper .side-list ul li {
+        margin: 40px 68px;
+    
+    }
+
+     .close-btn2 {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        margin-left: 87vw;
+        margin-top: 100px;
+        cursor: pointer;
+        display: block;
+        color: black;
+    }
+ 
+
 
 
 
