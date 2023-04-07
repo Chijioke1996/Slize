@@ -1,9 +1,9 @@
 const menu = document.querySelector(".menu")
-const boxy = document.querySelector(".boxy")
+const wrapper = document.querySelector(".wrapper")
 // const close = document.querySelector(".close-btn")
 
 menu.addEventListener("click", () => {
-    boxy.classList.add("active")
+    wrapper.classList.add("active")
    
 })
 
