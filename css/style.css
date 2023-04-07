@@ -38,6 +38,9 @@ body {
 #navbar a h1 {
     margin: 5px;
     position: absolute;
+    color: hsl(303, 10%, 53%);
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
 
 }
 
@@ -47,6 +50,7 @@ body {
     margin: 0px 80px;
     position: relative;
     cursor: pointer;
+    color: hsl(303, 10%, 53%);
 
 
 }
@@ -279,15 +283,16 @@ body {
 
 }
 
-.container2 .p2 {
+.text .p2 {
     font-size: 1.1rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'League Spartan', sans-serif;
     line-height: 1.3rem;
     text-align: justify;
     margin: 50px 250px;
     color: hsl(303, 10%, 53%);
     font-weight: 300;
+    text-justify: inherit;
 
 }
 
@@ -301,20 +306,25 @@ body {
     #navbar .hamburger .menu {
         margin: 0px 70px;
         position: relative;
+        margin-left: 82vw;
 
     }
 
     #navbar .search-box {
-        margin-left: 64vw;
+        /* margin-left: 64vw;
         margin-top: 48px;
-        position: absolute;
+        position: absolute; */
+
+        display: none;
 
     }
 
     #navbar .client-btn {
-        margin-left: 75vw;
+        /* margin-left: 75vw;
         margin-top: 24px;
-        position: absolute;
+        position: absolute; */
+
+        display: none;
 
     }
 
@@ -393,30 +403,44 @@ body {
     }
 
     .container2 {
-       margin: 0px 120px;
-       
+        margin: 0px 120px;
+
     }
 
     .container2 h3 {
         font-size: 1.4rem;
         text-align: center;
         margin-top: 100px;
-        
+
 
     }
 
-    .container2 .p2 {
-        font-size: 1.2rem;
-       
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        padding: 0px 5vw;
+    }
+
+    .text .p2 {
+        /* font-size: 1.2rem;
+
         line-height: 1.3rem;
         text-align: justify;
         margin-left: 50px;
         color: hsl(303, 10%, 53%);
         font-weight: 300;
-        position: absolute;
-       
-       
-    
+        position: absolute; */
+
+        margin-left: -82px;
+        font-size: 1.2rem;
+        text-justify: inherit;
+
+
+
+
+
     }
 
 
@@ -434,6 +458,7 @@ body {
     #navbar .hamburger .menu {
         margin: 0px 70px;
         position: relative;
+        margin-left: 84vw;
 
     }
 
@@ -488,7 +513,7 @@ body {
         display: block;
         color: black;
     }
-    
+
     .container1 {
         width: 100vw;
     }
@@ -507,7 +532,35 @@ body {
 
     }
 
-    
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        padding: 0px 2vw;
+    }
+
+    .text .p2 {
+        /* font-size: 1.2rem;
+
+        line-height: 1.3rem;
+        text-align: justify;
+        margin-left: 50px;
+        color: hsl(303, 10%, 53%);
+        font-weight: 300;
+        position: absolute; */
+
+        margin-left: -70px;
+        font-size: 0.89rem;
+        text-justify: inherit;
+        width: 100vw;
+
+
+
+
+    }
+
+
 
 
 
