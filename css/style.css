@@ -218,6 +218,15 @@ body {
     margin-left: 60px;
 }
 
+.close-btn {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -200px;
+    cursor: pointer;
+}
+
 
 
 /* RESPONSIVE CODEBASE */
@@ -230,7 +239,7 @@ body {
     }
 
     #navbar .search-box {
-        margin-left: 65vw;
+        margin-left: 64vw;
         margin-top: 48px;
         position: absolute;
     
@@ -238,7 +247,7 @@ body {
 
     #navbar .client-btn {
         margin-left: 75vw;
-        margin-top: 26px;
+        margin-top: 24px;
         position: absolute;
        
     }
@@ -258,14 +267,14 @@ body {
 
     #navbar .search-box {
         margin-left: 54vw;
-        margin-top: 55px;
+        margin-top: 53px;
         position: absolute;
     
     }
 
     #navbar .client-btn {
         margin-left: 65vw;
-        margin-top: 30px;
+        margin-top: 28px;
        
     }
 
