@@ -107,11 +107,12 @@ body {
 .wrapper {
     background: white;
     height: 600px;
-    position: relative;
+    position: fixed;
     /* z-index: auto; */
     display: none;
-    margin-top: -650px;
+    margin-top: 2px;
     z-index: 1;
+   
 
 
 }
@@ -272,14 +273,21 @@ body {
 }
 
 
+.container2 {
+    position: relative;
+}
 
-.container2 h3 {
+
+
+.text h3 {
     font-size: 2.1rem;
     text-align: center;
     margin-top: 100px;
     color: hsl(300, 43%, 22%);
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
+    height: 500px;
+    
 
 }
 
@@ -293,6 +301,8 @@ body {
     color: hsl(303, 10%, 53%);
     font-weight: 300;
     text-justify: inherit;
+    position: absolute;
+    margin-top: -27%;
 
 }
 
@@ -403,41 +413,39 @@ body {
     }
 
     .container2 {
-        margin: 0px 120px;
+       
 
     }
 
-    .container2 h3 {
-        font-size: 1.4rem;
-        text-align: center;
-        margin-top: 100px;
-
-
-    }
+    
 
     .text {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100vw;
-        padding: 0px 5vw;
+        padding: 0px 2vw;
+    }
+
+    .text h3 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 700px;
+        position: absolute;
+
+
     }
 
     .text .p2 {
-        /* font-size: 1.2rem;
+       
 
-        line-height: 1.3rem;
-        text-align: justify;
-        margin-left: 50px;
-        color: hsl(303, 10%, 53%);
-        font-weight: 300;
-        position: absolute; */
-
-        margin-left: -82px;
+        margin-left: 230px;
         font-size: 1.2rem;
         text-justify: inherit;
-
-
+        position: absolute;
+        margin-top: 760px;
+        width: 100vw;
+        padding: 40px;
 
 
 
@@ -538,22 +546,20 @@ body {
         justify-content: center;
         width: 100vw;
         padding: 0px 2vw;
+        
+       
     }
 
     .text .p2 {
-        /* font-size: 1.2rem;
 
-        line-height: 1.3rem;
-        text-align: justify;
-        margin-left: 50px;
-        color: hsl(303, 10%, 53%);
-        font-weight: 300;
-        position: absolute; */
-
-        margin-left: -70px;
+        margin-left: 220px;
         font-size: 0.89rem;
         text-justify: inherit;
         width: 100vw;
+        padding: 40px;
+        position: absolute;
+        margin-top: 890px;
+       
 
 
 
