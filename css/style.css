@@ -67,6 +67,7 @@ body {
     position: relative;
     margin-left: 65vw;
     margin-top: 44px;
+    display: none;
 
 
 }
@@ -112,7 +113,7 @@ body {
     display: none;
     margin-top: 2px;
     z-index: 1;
-   
+
 
 
 }
@@ -287,7 +288,7 @@ body {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     height: 500px;
-    
+
 
 }
 
@@ -305,6 +306,72 @@ body {
     margin-top: -27%;
 
 }
+
+.client-btn2 {
+    display: none;
+
+}
+
+.purple {
+    background: purple;
+    height: 600px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 5%;
+    overflow-x: hidden;
+
+}
+
+.box {
+    background-color: var(--color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+    text-align: center;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.blue {
+    --color: blue;
+}
+
+.red {
+    --color: red;
+}
+
+.yellow {
+    --color: yellow;
+}
+
+.green {
+    --color: green;
+}
+
+.box.yellow {
+    color: black;
+}
+
 
 
 
@@ -412,12 +479,9 @@ body {
         line-height: 1.7rem;
     }
 
-    .container2 {
-       
+    .container2 {}
 
-    }
 
-    
 
     .text {
         display: flex;
@@ -437,7 +501,7 @@ body {
     }
 
     .text .p2 {
-       
+
 
         margin-left: 230px;
         font-size: 1.2rem;
@@ -447,9 +511,60 @@ body {
         width: 100vw;
         padding: 40px;
 
+    }
+
+    .client-btn2 {
+        position: absolute;
+        margin-top: -200px;
+        display: flex;
+        padding: 0px 32%;
+
+    }
+
+    .btn2 {
+
+        width: 260px;
+        height: 40px;
+        border-radius: 7px;
+        cursor: pointer;
+        background: white;
+        font-size: 18px;
+        border: 2px solid white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
 
     }
+
+    .client-btn2 a {
+        text-decoration: none;
+    }
+
+    .btn2:hover {
+
+        border: 2px solid black;
+    }
+
+    .purple {
+        background: purple;
+        height: 600px;
+        margin-top: 650px;
+    }
+
+    .box {
+
+        margin-top: 100px;
+    }
+
+
+
+
+
+
+
+
 
 
 }
@@ -546,8 +661,8 @@ body {
         justify-content: center;
         width: 100vw;
         padding: 0px 2vw;
-        
-       
+
+
     }
 
     .text .p2 {
@@ -559,12 +674,48 @@ body {
         padding: 40px;
         position: absolute;
         margin-top: 890px;
-       
-
-
 
 
     }
+
+    .client-btn2 {
+        position: absolute;
+        margin-top: -170px;
+        display: flex;
+        padding: 0px 15.7%;
+
+    }
+
+    .btn2 {
+
+        width: 260px;
+        height: 40px;
+        border-radius: 7px;
+        cursor: pointer;
+        background: white;
+        font-size: 18px;
+        border: 2px solid white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .purple {
+        background: purple;
+        height: 600px;
+        margin-top: 750px;
+    }
+
+    .box {
+
+        margin-top: 100px;
+        width: 340px;
+        height: 380px;
+    }
+
 
 
 
