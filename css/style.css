@@ -683,7 +683,7 @@ body {
 
 
 
-@media screen and (width <=480px) {
+@media screen and (width <=481px) {
     #navbar .hamburger .menu {
         margin: 0px 70px;
         position: relative;
@@ -849,5 +849,32 @@ body {
 
 
 
+
+}
+
+
+
+
+
+@media screen and (width < 479px) {
+    .text h3 {
+        margin-top: 460px;
+        position: absolute;
+    }
+
+    .text .p2 {
+
+        margin-left: 220px;
+        font-size: 0.98rem;
+        text-justify: inherit;
+        width: 100vw;
+        padding: 40px;
+        position: absolute;
+        margin-top: 760px;
+        font-family: sans-serif;
+        font-weight: normal;
+
+
+    }
 
 }
