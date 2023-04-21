@@ -38,9 +38,10 @@ body {
 #navbar a h1 {
     margin: 5px;
     position: absolute;
-    color: hsl(303, 10%, 53%);
+    /* color: hsl(303, 10%, 53%); */
     font-weight: 700;
     font-family: 'League Spartan', sans-serif;
+    color: #5d2ece;
 
 }
 
@@ -50,7 +51,8 @@ body {
     margin: 0px 80px;
     position: relative;
     cursor: pointer;
-    color: hsl(303, 10%, 53%);
+    /* color: hsl(303, 10%, 53%); */
+    color: #5d2ece;
 
 
 }
@@ -97,13 +99,16 @@ body {
     height: 30px;
     border-radius: 7px;
     cursor: pointer;
+    background-color: #5d2ece;
+    border: 2px solid #5d2ece;
+    color: white;
 
 }
 
-.btn:hover {
+/* .btn:hover {
     background: black;
     color: white;
-}
+} */
 
 .wrapper {
     background: white;
@@ -261,16 +266,18 @@ body {
     position: absolute;
     margin-left: 58vw;
     font-size: 2.3rem;
+    font-family: Verdana, sans-serif;
 
 }
 
 .parent p {
     color: white;
-    margin-top: -330px;
+    margin-top: -320px;
     position: absolute;
     margin-left: 58vw;
     font-size: 1.1rem;
     line-height: 1.7rem;
+    font-family: sans-serif;
 }
 
 
@@ -284,10 +291,11 @@ body {
     font-size: 2.1rem;
     text-align: center;
     margin-top: 100px;
-    color: hsl(300, 43%, 22%);
-    font-family: 'League Spartan', sans-serif;
+    color: #172b4d;
+    /* font-family: 'League Spartan', sans-serif; */
     font-weight: 700;
     height: 500px;
+    font-family: Verdana, sans-serif;
 
 
 }
@@ -295,15 +303,17 @@ body {
 .text .p2 {
     font-size: 1.1rem;
     text-align: center;
-    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
     line-height: 1.3rem;
     text-align: justify;
     margin: 50px 250px;
-    color: hsl(303, 10%, 53%);
+    /* color: hsl(303, 10%, 53%); */
     font-weight: 300;
     text-justify: inherit;
     position: absolute;
     margin-top: -27%;
+    color: #6b778c;
+    font-family: sans-serif;
 
 }
 
@@ -313,7 +323,7 @@ body {
 }
 
 .purple {
-    background: purple;
+    background: #f5f6f7;
     height: 600px;
 }
 
@@ -338,10 +348,11 @@ body {
     height: 400px;
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
     transform: translateX(400%);
     transition: transform 0.4s ease;
     text-align: center;
+    margin-top: 100px;
 }
 
 .box:nth-of-type(even) {
@@ -352,8 +363,8 @@ body {
     transform: translateX(0);
 }
 
-.blue {
-    --color: blue;
+.white {
+    --color: white;
 }
 
 .red {
@@ -412,10 +423,13 @@ body {
 
     }
 
+  
+
     .wrapper .side-list {
-        background: #f4f4f4;
+        /* background: #f4f4f4; */
         height: 450px;
         width: 100vw;
+        background: white;
 
 
     }
@@ -455,28 +469,33 @@ body {
 
 
     .container1 {
-
+        
         height: 650px;
         position: relative;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/img/background.avif);
+        /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/img/background.avif); */
+        background: white;
     }
 
     .parent h2 {
-        color: white;
+        /* color: white; */
         margin-top: -400px;
         position: absolute;
         margin-left: 12vw;
         font-size: 2.3rem;
+        color: #172b4d;
+       
 
     }
 
     .parent p {
-        color: white;
-        margin-top: -350px;
+        /* color: white; */
+        margin-top: -310px;
         position: absolute;
         margin-left: 12vw;
         font-size: 1.1rem;
         line-height: 1.7rem;
+        color: #6b778c;
+        font-family: sans-serif;
     }
 
     .container2 {}
@@ -496,6 +515,8 @@ body {
         text-align: center;
         margin-top: 700px;
         position: absolute;
+        color: #172b4d;
+        font-family: Verdana, sans-serif;
 
 
     }
@@ -504,12 +525,15 @@ body {
 
 
         margin-left: 230px;
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
         text-justify: inherit;
         position: absolute;
         margin-top: 760px;
         width: 100vw;
         padding: 40px;
+        color: #6b778c;
+        font-size: 15px;
+        font-family: sans-serif;
 
     }
 
@@ -527,13 +551,14 @@ body {
         height: 40px;
         border-radius: 7px;
         cursor: pointer;
-        background: white;
+        background: #6e58e2;
         font-size: 18px;
-        border: 2px solid white;
+        border: 2px solid #6e58e2;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: white;
 
 
     }
@@ -548,7 +573,7 @@ body {
     }
 
     .purple {
-        background: purple;
+        background: #f5f6f7;
         height: 600px;
         margin-top: 650px;
     }
@@ -599,7 +624,7 @@ body {
     }
 
     .wrapper .side-list {
-        background: #f4f4f4;
+      
         height: 450px;
         width: 100vw;
 
@@ -645,13 +670,19 @@ body {
     .parent h2 {
         margin-left: 10vw;
         font-size: 2.3rem;
+        position: absolute;
+        margin-top: -490px;
+       
+        
+      
 
     }
 
     .parent p {
         margin-left: 10vw;
         font-size: 1.1rem;
-        margin-top: -310px;
+        margin-top: -360px;
+        position: absolute;
 
     }
 
@@ -691,20 +722,19 @@ body {
         width: 260px;
         height: 40px;
         border-radius: 7px;
-        cursor: pointer;
-        background: white;
+        cursor: pointer;   
         font-size: 18px;
-        border: 2px solid white;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: -40px;
 
 
     }
 
     .purple {
-        background: purple;
+        
         height: 600px;
         margin-top: 750px;
     }
