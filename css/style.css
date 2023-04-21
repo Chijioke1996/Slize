@@ -463,7 +463,7 @@ body {
 
 /* RESPONSIVE CODEBASE */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     #navbar .hamburger .menu {
         margin: 0px 70px;
         position: relative;
@@ -855,7 +855,7 @@ body {
 
 
 
-
+/* <<<<<<<<<<  CHIKWADO SCREEN SIZE IS THE SAME AS IPHONE X  >>>>>> */
 @media screen and (width < 479px) {
     .text h3 {
         margin-top: 460px;
@@ -878,3 +878,4 @@ body {
     }
 
 }
+
