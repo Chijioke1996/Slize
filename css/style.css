@@ -248,6 +248,7 @@ body {
 
 .close-btn2 {
     display: none;
+    color: #5d2ece;
 }
 
 .container1 {
@@ -324,7 +325,10 @@ body {
 
 .purple {
     background: #f5f6f7;
-    height: 600px;
+    height: 1800px;
+    width: 100%;
+    
+   
 }
 
 .colors {
@@ -369,23 +373,23 @@ body {
 }
 
 .red {
-    --color: red;
+    --color: white;
+    overflow: hidden;
 }
 
 .yellow {
-    --color: yellow;
+    --color: white;
+    overflow: hidden;
 }
 
-.green {
-    --color: green;
-}
+/* .green {
+    --color: white;
+    overflow: hidden;
+} */
 
-.box.yellow {
-    color: black;
-}
 
 .box .pict {
-    /* background: #6e58e2; */
+   
     height: 200px;
     width: 100%;
     position: absolute;
@@ -398,8 +402,26 @@ body {
 
 }
 
-.pict .card {
-    
+.box .pict2 {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: url(/img/save2.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box .pict3 {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: url(/img/h2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .write {
@@ -426,6 +448,12 @@ body {
     margin-top: 20px;
     border-radius: 7px;
     font-family: sans-serif;
+}
+
+.conclude {
+    background: #6e58e2;
+    height: 500px;
+    width: 100%;
 }
 
 
@@ -513,7 +541,7 @@ body {
         margin-top: 100px;
         cursor: pointer;
         display: block;
-        color: black;
+        color: #5d2ece;
     }
 
 
@@ -524,6 +552,8 @@ body {
         /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/img/background.avif); */
         background: white;
     }
+
+
 
     .parent h2 {
         /* color: white; */
@@ -577,7 +607,7 @@ body {
     .text .p2 {
 
 
-        margin-left: 230px;
+        margin-left: 250px;
         font-size: 1.1rem;
         text-justify: inherit;
         position: absolute;
@@ -627,7 +657,7 @@ body {
 
     .purple {
         background: #f5f6f7;
-        height: 600px;
+        height: 1800px;
         margin-top: 650px;
     }
 
@@ -712,7 +742,7 @@ body {
         margin-top: 100px;
         cursor: pointer;
         display: block;
-        color: black;
+        
     }
 
     .container1 {
@@ -795,7 +825,7 @@ body {
 
     .purple {
         
-        height: 600px;
+        height: 1800px;
         margin-top: 730px;
     }
 
