@@ -394,6 +394,32 @@ body {
 
 }
 
+.write {
+    position: relative;
+}
+
+.write .text4 {
+    margin-top: 180px;
+    position: relative;
+    color: #6b778c;
+    font-size: 16px;
+    padding: 0px 40px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.write .btn3 {
+    background: #6e58e2;
+    border: 2px solid #6e58e2;
+    color: white;
+    width: 160px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+
 
 
 
@@ -441,6 +467,8 @@ body {
         height: 450px;
         width: 100vw;
         background: white;
+        border-bottom: 2px solid #5d2ece;
+        
 
 
     }
@@ -458,6 +486,8 @@ body {
 
     .wrapper .side-list ul li a {
         font-size: 1.0rem;
+        font-family: sans-serif;
+        color: #5d2ece;
     }
 
     .wrapper .side-list ul li .line {
@@ -509,7 +539,9 @@ body {
         font-family: sans-serif;
     }
 
-    .container2 {}
+    .container2 {
+      
+    }
 
 
 
@@ -519,10 +551,12 @@ body {
         justify-content: center;
         width: 100vw;
         padding: 0px 2vw;
+        
+        
     }
 
     .text h3 {
-        font-size: 1.4rem;
+        font-size: 2rem;
         text-align: center;
         margin-top: 700px;
         position: absolute;
@@ -536,14 +570,13 @@ body {
 
 
         margin-left: 230px;
-        /* font-size: 1.2rem; */
+        font-size: 1.1rem;
         text-justify: inherit;
         position: absolute;
         margin-top: 760px;
         width: 100vw;
         padding: 40px;
         color: #6b778c;
-        font-size: 15px;
         font-family: sans-serif;
 
     }
@@ -708,19 +741,20 @@ body {
     }
 
     .text h3 {
-        margin-top: 490px;
+        margin-top: 480px;
         position: absolute;
     }
 
     .text .p2 {
 
         margin-left: 220px;
-        font-size: 0.89rem;
+        font-size: 0.98rem;
         text-justify: inherit;
         width: 100vw;
         padding: 40px;
         position: absolute;
         margin-top: 740px;
+        font-family: sans-serif;
 
 
     }
@@ -759,7 +793,14 @@ body {
 
         margin-top: 100px;
         width: 340px;
-        height: 380px;
+        height: 450px;
+    }
+
+    .write .text4 {
+        margin-top: 230px;
+        font-size: 15px;
+        padding: 0px 20px;
+       
     }
 
 
