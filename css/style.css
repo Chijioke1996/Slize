@@ -385,13 +385,21 @@ body {
 }
 
 .box .pict {
-    background: #6e58e2;
+    /* background: #6e58e2; */
     height: 200px;
     width: 100%;
     position: absolute;
     top: 0;
+    background: url(/img/16.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
    
 
+}
+
+.pict .card {
+    
 }
 
 .write {
@@ -578,6 +586,7 @@ body {
         padding: 40px;
         color: #6b778c;
         font-family: sans-serif;
+        font-weight: normal;
 
     }
 
