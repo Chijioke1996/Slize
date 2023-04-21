@@ -557,7 +557,7 @@ body {
 
     .parent h2 {
         /* color: white; */
-        margin-top: -420px;
+        margin-top: -400px;
         position: absolute;
         margin-left: 12vw;
         font-size: 2.3rem;
@@ -596,7 +596,7 @@ body {
     .text h3 {
         font-size: 2rem;
         text-align: center;
-        margin-top: 700px;
+        margin-top: 680px;
         position: absolute;
         color: #172b4d;
         font-family: Verdana, sans-serif;
@@ -611,7 +611,7 @@ body {
         font-size: 1.1rem;
         text-justify: inherit;
         position: absolute;
-        margin-top: 760px;
+        margin-top: 750px;
         width: 100vw;
         padding: 40px;
         color: #6b778c;
