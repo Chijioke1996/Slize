@@ -54,7 +54,7 @@ window.addEventListener('scroll', () => {
 })
 
 
-// document.querySelectorAll('a[href^="#"]').forEach( anchor => {
+// document.querySelectorAll('a[href*="#"]').forEach( anchor => {
 //     anchor.addEventListener("click", (e) => {
 //         e.preventDefault()
 //         document.querySelector(this.getAttribute("href")).scrollIntoview({
