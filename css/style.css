@@ -90,7 +90,7 @@ body {
     margin-top: 20px;
     display: inline-block;
     position: absolute;
-   
+
 }
 
 
@@ -105,10 +105,11 @@ body {
     background-color: #5d2ece;
     border: 2px solid #5d2ece;
     color: white;
-   
+
 
 
 }
+
 #navbar .client-btn .btnn {
     margin-top: -24px;
     position: absolute;
@@ -120,7 +121,7 @@ body {
     background-color: #5d2ece;
     border: 2px solid #5d2ece;
     color: white;
-   
+
 
 }
 
@@ -324,11 +325,11 @@ body {
 .text .p2 {
     font-size: 1.1rem;
     text-align: center;
-   
+
     line-height: 1.3rem;
     text-align: justify;
     margin: 50px 250px;
-    
+
     font-weight: 300;
     text-justify: inherit;
     position: absolute;
@@ -474,8 +475,8 @@ body {
 }
 
 .conclude {
-    
-    height: 800px;
+
+    min-height: 800px;
     width: 100%;
     background: #172b4d;
     /* width: 90%;
@@ -484,7 +485,7 @@ body {
     justify-content: center;
     margin: 0px 5%; */
     position: absolute;
-    
+
 }
 
 .signin {
@@ -519,17 +520,17 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 100px;
     margin: 80px 80px;
-  
+
 }
 
 .item {
     min-height: 370px;
     width: 270px;
     border-radius: 10px;
-   
+
 }
 
 .square {
@@ -543,18 +544,19 @@ body {
 }
 
 .title {
-    
+
     color: white;
     position: relative;
-    margin-top: -12px;
+    margin-top: -18px;
     margin-left: 60px;
     font-size: 21px;
     font-weight: bold;
     font-family: Verdana, sans-serif;
+    line-height: 1.6rem;
 }
 
 .title2 {
-    
+
     color: white;
     position: relative;
     margin-top: 20px;
@@ -562,7 +564,7 @@ body {
     font-size: 18px;
     font-family: sans-serif;
     line-height: 1.8rem;
-    
+
 }
 
 
@@ -797,14 +799,14 @@ body {
         border: 2px solid #6e58e2;
         cursor: pointer;
         color: white;
-        
+
 
 
     }
 
     .conclude {
         height: 1200px;
-        
+
     }
 
     .item {
@@ -813,15 +815,15 @@ body {
         border-radius: 10px;
         margin-left: 20px;
         margin-top: 30px;
-       
+
     }
 
     .grid {
-       
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         gap: 10px;
         margin: 10px 40px;
-      
+
     }
 
 
@@ -937,8 +939,8 @@ body {
         align-items: center;
         justify-content: center;
         width: 100vw;
-       
-       
+
+
 
 
     }
@@ -966,7 +968,7 @@ body {
         justify-content: center;
         text-align: start;
         color: #6b778c;
-        
+
 
     }
 
@@ -1018,7 +1020,7 @@ body {
         display: none;
     }
 
-    
+
     .sub1 {
         color: white;
         font-family: Verdana, sans-serif;
@@ -1028,11 +1030,12 @@ body {
         position: absolute;
         display: block;
         text-align: start;
-        
+        font-weight: bolder;
+
     }
 
     .learn2 {
-       display: none;
+        display: none;
     }
 
     .learn3 {
@@ -1048,31 +1051,45 @@ body {
 
     .conclude {
         height: 1700px;
-        
+
     }
 
     .item {
         min-height: 370px;
-        width: 270px;
+        width: 320px;
         border-radius: 10px;
         margin-left: -20px;
         margin-top: -60px;
-       
+
     }
 
     .grid {
-       
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         gap: 10px;
         margin: 10px 40px;
-      
+
+    }
+
+    .title {
+
+        color: white;
+        position: relative;
+        margin-top: -18px;
+        margin-left: 60px;
+        font-size: 21px;
+        font-weight: bold;
+        font-family: Verdana, sans-serif;
+        line-height: 1.8rem;
     }
 
 
 
-   
 
-  
+
+
+
+
 
 
 
@@ -1089,7 +1106,7 @@ body {
 
 
 /* <<<<<<<<<<  CHIKWADO SCREEN SIZE IS THE SAME AS IPHONE X  >>>>>> */
-@media screen and (width < 479px) {
+@media screen and (width <=479px) {
     .text h3 {
         margin-top: 460px;
         position: absolute;
@@ -1110,5 +1127,15 @@ body {
 
     }
 
-}
+    .learn3 {
+        display: block;
+        color: white;
+        font-family: sans-serif;
+        font-size: 17px;
+        margin: 170px 30px;
+        line-height: 2.0rem;
+        text-align: start;
 
+    }
+
+}
